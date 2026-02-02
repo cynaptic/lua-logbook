@@ -1,6 +1,6 @@
 pages:
   stage: build
-  image: lua:5.4-alpine
+  image: nickblah/lua:5.4
   script:
     - lua Gen.lua
     - mkdir -p public
